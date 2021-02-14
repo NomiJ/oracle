@@ -1,0 +1,126 @@
+{
+    "contractName": "EthPriceOracleInterface",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "getLatestEthPrice",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getLatestEthPrice\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/nomi/Documents/MyAdventures/blockchain/oracle/caller/EthPriceOracleInterface.sol\":\"EthPriceOracleInterface\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/nomi/Documents/MyAdventures/blockchain/oracle/caller/EthPriceOracleInterface.sol\":{\"keccak256\":\"0x7f89253f98465bae9de40fc9b2bc58327ddfaa9c98132cbba60376205e8dd54e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://748d9ceecb2b8ff8d782056806994e0f2852399de077804648132116fd312c39\",\"dweb:/ipfs/QmXui728Y94fZiCN37wSShNymiAgsXFpXqNKtSCnAX8w6S\"]}},\"version\":1}",
+    "bytecode": "",
+    "deployedBytecode": "",
+    "sourceMap": "",
+    "deployedSourceMap": "",
+    "sourcePath": "/Users/nomi/Documents/MyAdventures/blockchain/oracle/caller/EthPriceOracleInterface.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.7.4+commit.3f05b770"
+    },
+    "ast": {
+        "absolutePath": "/Users/nomi/Documents/MyAdventures/blockchain/oracle/caller/EthPriceOracleInterface.sol",
+        "exportedSymbols": {
+            "EthPriceOracleInterface": [
+                72
+            ]
+        },
+        "id": 73,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 66,
+                "literals": [
+                    "solidity",
+                    "0.7",
+                    ".4"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "32:22:1"
+            },
+            {
+                "abstract": true,
+                "baseContracts": [],
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": false,
+                "id": 72,
+                "linearizedBaseContracts": [
+                    72
+                ],
+                "name": "EthPriceOracleInterface",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "functionSelector": "30c0b9ec",
+                        "id": 71,
+                        "implemented": false,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "getLatestEthPrice",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 67,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "128:2:1"
+                        },
+                        "returnParameters": {
+                            "id": 70,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 69,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 71,
+                                    "src": "155:7:1",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    },
+                                    "typeName": {
+                                        "id": 68,
+                                        "name": "uint256",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "155:7:1",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "154:9:1"
+                        },
+                        "scope": 72,
+                        "src": "102:62:1",
+                        "stateMutability": "nonpayable",
+                        "virtual": true,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 73,
+                "src": "56:110:1"
+            }
+        ],
+        "src": "32:135:1"
+    },
+    "functionHashes": {
+        "getLatestEthPrice()": "30c0b9ec"
+    },
+    "gasEstimates": null
+}
