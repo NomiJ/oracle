@@ -29,15 +29,15 @@
         "absolutePath": "/Users/nomi/Documents/MyAdventures/blockchain/oracle/caller/EthPriceOracleInterface.sol",
         "exportedSymbols": {
             "EthPriceOracleInterface": [
-                72
+                123
             ]
         },
-        "id": 73,
+        "id": 124,
         "license": "MIT",
         "nodeType": "SourceUnit",
         "nodes": [
             {
-                "id": 66,
+                "id": 117,
                 "literals": [
                     "solidity",
                     "0.7",
@@ -52,38 +52,38 @@
                 "contractDependencies": [],
                 "contractKind": "contract",
                 "fullyImplemented": false,
-                "id": 72,
+                "id": 123,
                 "linearizedBaseContracts": [
-                    72
+                    123
                 ],
                 "name": "EthPriceOracleInterface",
                 "nodeType": "ContractDefinition",
                 "nodes": [
                     {
                         "functionSelector": "30c0b9ec",
-                        "id": 71,
+                        "id": 122,
                         "implemented": false,
                         "kind": "function",
                         "modifiers": [],
                         "name": "getLatestEthPrice",
                         "nodeType": "FunctionDefinition",
                         "parameters": {
-                            "id": 67,
+                            "id": 118,
                             "nodeType": "ParameterList",
                             "parameters": [],
                             "src": "128:2:1"
                         },
                         "returnParameters": {
-                            "id": 70,
+                            "id": 121,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 69,
+                                    "id": 120,
                                     "mutability": "mutable",
                                     "name": "",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 71,
+                                    "scope": 122,
                                     "src": "155:7:1",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -92,7 +92,7 @@
                                         "typeString": "uint256"
                                     },
                                     "typeName": {
-                                        "id": 68,
+                                        "id": 119,
                                         "name": "uint256",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "155:7:1",
@@ -106,14 +106,14 @@
                             ],
                             "src": "154:9:1"
                         },
-                        "scope": 72,
+                        "scope": 123,
                         "src": "102:62:1",
                         "stateMutability": "nonpayable",
                         "virtual": true,
                         "visibility": "public"
                     }
                 ],
-                "scope": 73,
+                "scope": 124,
                 "src": "56:110:1"
             }
         ],
