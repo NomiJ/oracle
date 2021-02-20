@@ -2,7 +2,7 @@
 pragma solidity 0.7.4;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "../caller/EthPriceOracleInterface.sol";
+import "../../caller/contracts/EthPriceOracleInterface.sol";
 import "./CallerContracInterface.sol";
 
 
