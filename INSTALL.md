@@ -1,0 +1,4 @@
+- npm rum deploy:all
+- cd js
+- node run EthPriceOracle.js
+- node run client.js

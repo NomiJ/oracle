@@ -3,10 +3,12 @@ const SLEEP_INTERVAL = process.env.SLEEP_INTERVAL || 2000
 const PRIVATE_KEY_FILE_NAME = process.env.PRIVATE_KEY_FILE || '../caller/caller_private_key'
 const CallerJSON = require('../bin/caller/CallerContract.json')
 const OracleJSON = require('../bin/oracle/EthPriceOracle.json')
+const EthPriceOracleAddress = '0x8a0698bf3Da06b840c58b77df649025DD85d5a48'
+const CallerContractAddress = '0x26371AE4b065acBA0af481da9bB55c9A49b71FF2'
 
 async function getCallerContract(web3js) {
     const networkId = await web3js.eth.net.getId()
-    return new web3js.eth.Contract(CallerJSON.abi, CallerJSON.networks[networkId].address)
+    return new web3js.eth.Contract(CallerJSON.abi, CallerContractAddress)
 }
 
 async function retrieveLatestEthPrice() {
@@ -48,7 +50,7 @@ async function init() {
             process.exit();
         })
         const networkId = await web3js.eth.net.getId()
-        const oracleAddress = OracleJSON.networks[networkId].address
+        const oracleAddress = EthPriceOracleAddress
         await callerContract.methods.setOracleInstanceAddress(oracleAddress).send({ from: ownerAddress })
         setInterval(async() => {
             await callerContract.methods.updateEthPrice().send({ from: ownerAddress })
